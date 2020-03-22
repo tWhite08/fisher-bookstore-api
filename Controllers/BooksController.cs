@@ -9,7 +9,6 @@ namespace Fisher.Bookstore.Controllers
     [Route("api/[controller]")]
     public class BooksController : ControllerBase
     {
-
         private IBooksRepository booksRepository;
 
         public BooksController(IBooksRepository repository)
